@@ -28,10 +28,29 @@
         </nav>
     </header>
 
-    <!-- Conteúdo Principal -->
     <main class="container mt-4">
-        <!-- Aqui entra o conteúdo específico de cada página -->
+        <h2>Contato</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="assunto" class="form-label">Assunto</label>
+                <input type="text" class="form-control" id="assunto" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
     </main>
+    
 
     <!-- Footer -->
     <footer class="bg-dark text-white mt-4">
@@ -44,10 +63,10 @@
                 <div class="col-md-4">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Home</a></li>
-                        <li><a href="#" class="text-white">Categorias</a></li>
-                        <li><a href="#" class="text-white">Contato</a></li>
-                        <li><a href="#" class="text-white">Política de Privacidade</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="categorias.html">Categorias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
