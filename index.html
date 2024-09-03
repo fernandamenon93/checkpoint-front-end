@@ -7,7 +7,6 @@
     <title>E-commerce Sustentável</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css"> <!-- Arquivo CSS personalizado -->
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
@@ -16,7 +15,7 @@
     <header class="bg-light">
         <nav class="navbar navbar-expand-lg navbar-light container">
             <a class="navbar-brand" href="#">EcoStore</a>
-            <a class="navbar-brand" href="#"><img style="height: 100px; width: 100px;" src="img/logo.png"></a>
+            <a class="navbar-brand" href="#"><img style="height: 100px; width: 100px;" src="img/logo.png" alt="Logo EcoStore"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,8 +35,7 @@
         <!-- Banner (Carrossel) -->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                    class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
             </div>
@@ -61,13 +59,11 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -75,48 +71,57 @@
 
         <!-- Seções de Produtos -->
         <section class="mt-5">
-            <h2>Produtos sustentáveis</h2>
+            <h2>Produtos Sustentáveis</h2>
             <div class="row">
-                <div class="col-md-4">
+                <!-- Roupas -->
+                <div class="col-md-3 mb-4">
                     <div class="card">
-                        <img src="img/roupa.jpg" class="card-img-top" alt="Produto 1">
+                        <img src="img/roupa.jpg" class="card-img-top" alt="Roupas Sustentáveis">
                         <div class="card-body">
                             <h5 class="card-title">Roupas</h5>
-                            <p class="card-text"></p>
+                            <p class="card-text">Explore nossa coleção de roupas feitas com materiais sustentáveis e orgânicos.</p>
                             <a href="categorias.html#roupas" class="btn btn-primary">Veja Mais</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <!-- Beleza -->
+                <div class="col-md-3 mb-4">
                     <div class="card">
-                        <img src="img/beleza.jpg" class="card-img-top" alt="Produto 1">
+                        <img src="img/beleza.jpg" class="card-img-top" alt="Produtos de Beleza">
                         <div class="card-body">
-                            <h5 class="card-title">Produtos de beleza</h5>
-                            <p class="card-text"></p>
-                            <a href="categorias.html#roupas" class="btn btn-primary">Veja Mais</a>
+                            <h5 class="card-title">Produtos de Beleza</h5>
+                            <p class="card-text">Cuide da sua pele com nossos cosméticos naturais e livres de crueldade.</p>
+                            <a href="categorias.html#beleza" class="btn btn-primary">Veja Mais</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <!-- Casa -->
+                <div class="col-md-3 mb-4">
                     <div class="card">
-                        <img src="img/casa.jpg" class="card-img-top" alt="Produto 1">
-                            <div class="card-body">
-                                <h5 class="card-title">Itens de casa</h5>
-                                <p class="card-text"></p>
-                                <a href="categorias.html#roupas" class="btn btn-primary">Veja Mais</a>
-                                
-                        
+                        <img src="img/casa.jpg" class="card-img-top" alt="Itens de Casa">
+                        <div class="card-body">
+                            <h5 class="card-title">Itens de Casa</h5>
+                            <p class="card-text">Decore seu lar com produtos sustentáveis e ecológicos.</p>
+                            <a href="categorias.html#casa" class="btn btn-primary">Veja Mais</a>
+                        </div>
                     </div>
                 </div>
-                
-
+                <!-- Acessórios -->
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="img/acessorio.jpg" class="card-img-top" alt="Acessórios Sustentáveis">
+                        <div class="card-body">
+                            <h5 class="card-title">Acessórios</h5>
+                            <p class="card-text">Descubra nossa linha de acessórios feitos com materiais reciclados e sustentáveis.</p>
+                            <a href="categorias.html#acessorios" class="btn btn-primary">Veja Mais</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        
 
         <!-- Outras categorias podem seguir o mesmo padrão -->
     </main>
-
 
     <!-- Footer -->
     <footer class="bg-dark text-white mt-4">
@@ -124,15 +129,16 @@
             <div class="row">
                 <div class="col-md-4">
                     <h5>EcoStore</h5>
-                    <p>Seu e-commerce de produtos sustentáveis</p>
+                    <p>Seu e-commerce de produtos sustentáveis.</p>
                 </div>
                 <div class="col-md-4">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="categorias.html">Categorias</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="categorias.html">Categorias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                    </ul>
                 </div>
                 <div class="col-md-4">
                     <h5>Siga-nos</h5>
