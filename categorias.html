@@ -35,7 +35,7 @@
                 <h5>Filtrar por:</h5>
                 <form>
                     <h6>Preço</h6>
-                    <input type="range" class="form-range" id="priceRange">
+                    <input type="range" class="form-range mb-3" id="priceRange" min="0" max="1000" step="10">
                     
                     <h6>Categoria</h6>
                     <div class="form-check">
@@ -47,124 +47,160 @@
                         <label class="form-check-label" for="category2">Beleza</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="category2">
-                        <label class="form-check-label" for="category2">Casa</label>
+                        <input class="form-check-input" type="checkbox" value="" id="category3">
+                        <label class="form-check-label" for="category3">Casa</label>
                     </div>
                     <!-- Adicionar outros filtros -->
                 </form>
             </aside>
 
+            <!-- Lista de Produtos -->
+            <section class="col-md-9">
+                <div class="row">
+                    <!-- Categoria: Roupas -->
+                    <div class="col-12 mb-4">
+                        <h2>Roupas Sustentáveis</h2>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/colete.jpg" class="card-img-top" alt="Colete begê">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Colete begê</h5>
+                                        <p class="card-text">R$ 339,90</p>
+                                        <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/camiseta.jpg" class="card-img-top" alt="Blusa branca elegante">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Blusa branca elegante</h5>
+                                        <p class="card-text">R$ 109,90</p>
+                                        <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/camisa.jpg" class="card-img-top" alt="Camiseta social azul listrada">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Camiseta social azul listrada</h5>
+                                        <p class="card-text">R$ 200,00</p>
+                                        <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/calça1.jpg" class="card-img-top" alt="Calça begê">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Calça begê</h5>
+                                        <p class="card-text">R$ 129,90</p>
+                                        <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/calça2.jpg" class="card-img-top" alt="Calça azul claro">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Calça azul claro</h5>
+                                        <p class="card-text">R$ 119,90</p>
+                                        <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/calça3.jpg" class="card-img-top" alt="Conjunto blusa + calça">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Conjunto blusa + calça</h5>
+                                        <p class="card-text">R$ 200,00</p>
+                                        <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <!-- Lista de Produtos ROUPAS-->
-            <section class="col-md-9">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/calça1.jpg" class="card-img-top" alt="Produto 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Calça begê</h5>
-                                <p class="card-text">R$ 129,90</p>
-                                <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                    <!-- Categoria: Beleza -->
+                    <div class="col-12 mb-4">
+                        <h2>Beleza</h2>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/creme.jpg" class="card-img-top" alt="Creme de mão">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Creme de mão</h5>
+                                        <p class="card-text">R$ 99,90</p>
+                                        <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/hidratante.jpg" class="card-img-top" alt="Hidratante facial">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hidratante facial</h5>
+                                        <p class="card-text">R$ 150,90</p>
+                                        <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/batom.jpg" class="card-img-top" alt="Batom coral">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Batom coral</h5>
+                                        <p class="card-text">R$ 199,90</p>
+                                        <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/calça2.jpg" class="card-img-top" alt="Produto 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Calça azul claro</h5>
-                                <p class="card-text">R$ 119,90</p>
-                                <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/calça3.jpg" class="card-img-top" alt="Produto 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Conjunto blusa + calça</h5>
-                                <p class="card-text">R$ 200,00</p>
-                                <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Lista de Produtos COSMÉTICOS-->
-            <section class="col-md-9">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/creme.jpg" class="card-img-top" alt="Produto 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Creme de mão</h5>
-                                <p class="card-text">R$ 99,90</p>
-                                <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/hidratante.jpg" class="card-img-top" alt="Produto 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Hidratante facial</h5>
-                                <p class="card-text">R$ 150,90</p>
-                                <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/batom.jpg" class="card-img-top" alt="Produto 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Batom coral</h5>
-                                <p class="card-text">R$ 199,90</p>
-                                <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Lista de Produtos ACESSÓRIO-->
-            <section class="col-md-9">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/colar.jpg" class="card-img-top" alt="Produto 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Colar azul</h5>
-                                <p class="card-text">R$ 239,90</p>
-                                <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/pulseira.jpg" class="card-img-top" alt="Produto 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Colar com detalhes verdes</h5>
-                                <p class="card-text">R$ 290,90</p>
-                                <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/arco.jpg" class="card-img-top" alt="Produto 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Tiara com detalhes verdes agua</h5>
-                                <p class="card-text">R$ 150,00</p>
-                                <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            </section>  
 
+                    <!-- Categoria: Acessórios -->
+                    <div class="col-12 mb-4">
+                        <h2>Acessórios</h2>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/colar.jpg" class="card-img-top" alt="Colar azul">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Colar azul</h5>
+                                        <p class="card-text">R$ 239,90</p>
+                                        <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/pulseira.jpg" class="card-img-top" alt="Pulseira com detalhes verdes">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pulseira com detalhes verdes</h5>
+                                        <p class="card-text">R$ 290,90</p>
+                                        <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="img/arco.jpg" class="card-img-top" alt="Tiara com detalhes verdes água">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tiara com detalhes verdes água</h5>
+                                        <p class="card-text">R$ 150,00</p>
+                                        <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
-    
 
     <!-- Footer -->
     <footer class="bg-dark text-white mt-4">
@@ -177,10 +213,10 @@
                 <div class="col-md-4">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="categorias.html">Categorias</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                        <li><a class="text-white" href="index.html">Home</a></li>
+                        <li><a class="text-white" href="categorias.html">Categorias</a></li>
+                        <li><a class="text-white" href="sobre.html">Sobre Nós</a></li>
+                        <li><a class="text-white" href="contato.html">Contato</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -196,3 +232,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
