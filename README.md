@@ -1,8 +1,4 @@
 # checkpoint-front-end
-Aqui está o README pronto para o site de produtos sustentáveis da **EcoStore**:
-
----
-
 # EcoStore - Loja de Produtos Sustentáveis
 
 ## Visão Geral
