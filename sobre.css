@@ -128,8 +128,6 @@ footer a {
 footer a:hover {
     color: #28a745;
 }
-
-
 @media (max-width: 767.98px) {
     .navbar-nav {
         text-align: center;
